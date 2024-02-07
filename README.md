@@ -33,7 +33,7 @@ After preliminary investigations, they've identified three primary customer cate
 
 1. **Clone the Repository**:
 ```bash
-git clone git@github.com:sinaaasghari/Book-Store.git
+git clone https://github.com/AliNzmv/Book-Store.git
 ```
 
 2. **Install Dependencies**:
