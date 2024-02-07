@@ -37,9 +37,9 @@ After preliminary investigations, they've identified three primary customer cate
 git clone https://github.com/AliNzmv/Book-Store.git
 ```
 2. **Installing required packages**:
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 4. **Install Dependencies**:
 ```bash
