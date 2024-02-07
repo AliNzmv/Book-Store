@@ -27,6 +27,7 @@ After preliminary investigations, they've identified three primary customer cate
 - dashboard.py [Script to launch the project dashboard]
 - db.ipynb [Notebook for database-related operations]
 - quda_project_scenario.pdf [One-page project scenario description]
+- requirements.txt
 ```
 
 ## 🚀 Getting Started
@@ -35,26 +36,30 @@ After preliminary investigations, they've identified three primary customer cate
 ```bash
 git clone https://github.com/AliNzmv/Book-Store.git
 ```
+2. **Installing required packages**:
+'''bash
+pip install -r requirements.txt
+'''
 
-2. **Install Dependencies**:
+4. **Install Dependencies**:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Data Crawling**:
+4. **Data Crawling**:
    - Run the `crawl.py` script to gather data.
    - Modify and utilize functions in `crawl_functions.py` as needed.
 
-4. **Database Setup**:
+5. **Database Setup**:
    - Set up your preferred database system.
    - Open `db.ipynb` and configure the database connection as required.
 
-5. **Launch Dashboard**:
+6. **Launch Dashboard**:
    - Navigate to the main directory and run:
 ```bash
 python dashboard.py
 ```
-6. **Statistical Analysis & Hypothesis Testing**:
+7. **Statistical Analysis & Hypothesis Testing**:
    - Run the `analysis_test.ipynb` as a jupyter notebook.
    - There are codes to provide client's orders and a few hypotheses while testing and evaluating.
 
