@@ -41,25 +41,20 @@ git clone https://github.com/AliNzmv/Book-Store.git
 pip install -r requirements.txt
 ```
 
-4. **Install Dependencies**:
-```bash
-pip install -r requirements.txt
-```
-
-4. **Data Crawling**:
+3. **Data Crawling**:
    - Run the `crawl.py` script to gather data.
    - Modify and utilize functions in `crawl_functions.py` as needed.
 
-5. **Database Setup**:
+4. **Database Setup**:
    - Set up your preferred database system.
    - Open `db.ipynb` and configure the database connection as required.
 
-6. **Launch Dashboard**:
+5. **Launch Dashboard**:
    - Navigate to the main directory and run:
 ```bash
 python dashboard.py
 ```
-7. **Statistical Analysis & Hypothesis Testing**:
+6. **Statistical Analysis & Hypothesis Testing**:
    - Run the `analysis_test.ipynb` as a jupyter notebook.
    - There are codes to provide client's orders and a few hypotheses while testing and evaluating.
 
